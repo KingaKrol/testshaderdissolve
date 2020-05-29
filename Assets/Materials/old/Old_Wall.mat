@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wand
+  m_Name: Old_Wall
   m_Shader: {fileID: -6465566751694194690, guid: d2f02ae95f0c69a469f01818aa5ce007,
     type: 3}
   m_ShaderKeywords: _ALPHATEST_ON
