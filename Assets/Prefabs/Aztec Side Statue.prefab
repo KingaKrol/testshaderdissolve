@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3759114448262570205}
   m_Layer: 0
-  m_Name: aztec_statuette_low
+  m_Name: Aztec Side Statue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23,9 +23,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175736542825566926}
-  m_LocalRotation: {x: -0, y: 0.09548665, z: -0, w: 0.99543077}
+  m_LocalRotation: {x: 0, y: 0.0954896, z: 0, w: 0.99543047}
   m_LocalPosition: {x: 108.2, y: 0, z: -54.5}
-  m_LocalScale: {x: 107.97648, y: 107.97648, z: 107.97648}
+  m_LocalScale: {x: 74.24139, y: 74.24139, z: 74.24139}
   m_Children:
   - {fileID: 8739121764879423286}
   - {fileID: 6784702138254223530}
