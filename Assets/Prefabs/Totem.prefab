@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2199645940824604462}
   - component: {fileID: 5600858628462543831}
   m_Layer: 0
-  m_Name: Totem_low_15k_UV
+  m_Name: Totem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8469793571560599946, guid: e81daac595d37c84f9211515d3d10182, type: 3}
+  - {fileID: 2100000, guid: 345024298ace7de42873d4d1a6c26be0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

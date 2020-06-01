@@ -3,7 +3,12 @@ guid: e81daac595d37c84f9211515d3d10182
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Merged_PM3D_Cube3D17
+    second: {fileID: 2100000, guid: 345024298ace7de42873d4d1a6c26be0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
