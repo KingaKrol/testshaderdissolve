@@ -21,7 +21,7 @@ public class DissolveInput : MonoBehaviour
     void Update()
     {
         Renderer rend = GetComponent<Renderer>();
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.Mouse0))
         {
             if (maxRadius <= 40f)
             {
@@ -35,7 +35,7 @@ public class DissolveInput : MonoBehaviour
             
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.Mouse1))
         {
             if (maxRadius >= 0f)
             {
