@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8690849181989643985, guid: c1a639337e0618c4f953cdba274df972, type: 3}
+  - {fileID: 2100000, guid: c4409a9f2e2325f49bcf4813688e8c12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,7 +88,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6327034932613433460}
   m_Layer: 0
-  m_Name: Calendar_4_a
+  m_Name: Calendar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
