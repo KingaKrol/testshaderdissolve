@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4520683334382091255}
   - component: {fileID: 8935015337450853214}
   - component: {fileID: 5226146271819192956}
+  - component: {fileID: 7432379898605789279}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -78,6 +79,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &7432379898605789279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5875708556206871191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3184e3365eff1846a3179addd43a673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxRadius: 0
 --- !u!1 &6277802704959489861
 GameObject:
   m_ObjectHideFlags: 0
@@ -87,6 +101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3812675061852839866}
+  - component: {fileID: -3444847265975010333}
   m_Layer: 0
   m_Name: Pillar
   m_TagString: Untagged
@@ -109,3 +124,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3444847265975010333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6277802704959489861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3184e3365eff1846a3179addd43a673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxRadius: 0

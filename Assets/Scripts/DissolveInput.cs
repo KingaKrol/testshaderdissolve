@@ -23,9 +23,9 @@ public class DissolveInput : MonoBehaviour
         Renderer rend = GetComponent<Renderer>();
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            if (maxRadius <= 40f)
+            if (maxRadius <= 350f)
             {
-                maxRadius += Time.deltaTime * 5f;
+                maxRadius += Time.deltaTime * 80f;
                 rend.material.SetFloat("Vector1_80351654", maxRadius);
                 Debug.Log(rend.material.GetFloat("Vector1_80351654"));
 
@@ -39,7 +39,7 @@ public class DissolveInput : MonoBehaviour
         {
             if (maxRadius >= 0f)
             {
-                maxRadius -= Time.deltaTime * 5f;
+                maxRadius -= Time.deltaTime * 80f;
                 rend.material.SetFloat("Vector1_80351654", maxRadius);
                 Debug.Log(rend.material.GetFloat("Vector1_80351654"));
 

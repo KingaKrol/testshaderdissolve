@@ -10,10 +10,10 @@ Material:
   m_Name: altar
   m_Shader: {fileID: -6465566751694194690, guid: d2f02ae95f0c69a469f01818aa5ce007,
     type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON
+  m_ShaderKeywords: _ALPHATEST_ON _DOUBLESIDED_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2000
   stringTagMap:
     MotionVector: User
@@ -131,7 +131,7 @@ Material:
     m_Floats:
     - Vector1_3E260144: 0.01
     - Vector1_80351654: 1
-    - Vector1_848A095B: 1
+    - Vector1_848A095B: 0.46
     - Vector1_B1404B2: 0.5
     - Vector1_B3BF5073: 0
     - Vector1_CFB2C164: 1
@@ -151,8 +151,8 @@ Material:
     - _Anisotropy: 0
     - _BlendMode: 0
     - _CoatMask: 0
-    - _CullMode: 2
-    - _CullModeForward: 2
+    - _CullMode: 0
+    - _CullModeForward: 0
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
     - _DetailAlbedoScale: 1
@@ -177,7 +177,7 @@ Material:
     - _DistortionSrcBlend: 0
     - _DistortionVectorBias: -1
     - _DistortionVectorScale: 2
-    - _DoubleSidedEnable: 0
+    - _DoubleSidedEnable: 1
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
     - _EmissiveColorMode: 1
