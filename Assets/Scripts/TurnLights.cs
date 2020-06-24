@@ -41,10 +41,20 @@ public class TurnLights : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Light lisrc = other.gameObject.GetComponent<Light>(); 
        if (other.tag == "Licht") {
-            other.gameObject.SetActive(false);
+            lisrc.enabled = false;
            Debug.Log("Licht soll ausgehen");
        }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        Light lisrc = other.gameObject.GetComponent<Light>();
+        if (other.tag == "Licht")
+        {
+            lisrc.enabled = true;
+            Debug.Log("Licht soll angehen");
+        }
+    }
 }
