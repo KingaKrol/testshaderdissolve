@@ -11,10 +11,8 @@ public class DissolveInput : MonoBehaviour
     {
         Renderer rend = GetComponent<Renderer>();
         rend.material.SetFloat("Vector1_80351654", maxRadius);
-        Debug.Log(rend.material.GetFloat("Vector1_80351654"));
 
         rend.material.SetFloat("Vector1_A9534723", maxRadius);
-        Debug.Log(rend.material.GetFloat("Vector1_A9534723"));
     }
 
     // Update is called once per frame
@@ -27,10 +25,8 @@ public class DissolveInput : MonoBehaviour
             {
                 maxRadius += Time.deltaTime * 80f;
                 rend.material.SetFloat("Vector1_80351654", maxRadius);
-                Debug.Log(rend.material.GetFloat("Vector1_80351654"));
 
                 rend.material.SetFloat("Vector1_A9534723", maxRadius);
-                Debug.Log(rend.material.GetFloat("Vector1_A9534723"));
             }
             
         }
@@ -41,10 +37,8 @@ public class DissolveInput : MonoBehaviour
             {
                 maxRadius -= Time.deltaTime * 80f;
                 rend.material.SetFloat("Vector1_80351654", maxRadius);
-                Debug.Log(rend.material.GetFloat("Vector1_80351654"));
 
                 rend.material.SetFloat("Vector1_A9534723", maxRadius);
-                Debug.Log(rend.material.GetFloat("Vector1_A9534723"));
             }
 
         }
