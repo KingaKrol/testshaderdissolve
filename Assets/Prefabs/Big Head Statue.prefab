@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 3836606186047811842}
   - component: {fileID: 7350672377526210043}
   m_Layer: 0
-  m_Name: animismus
+  m_Name: Big Head Statue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &5216674977133955892
 Transform:
