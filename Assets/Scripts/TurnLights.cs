@@ -10,6 +10,7 @@ public class TurnLights : MonoBehaviour
     void Start()
     {
         scaleFloat = 0f;
+        this.transform.localScale = new Vector3(scaleFloat, scaleFloat, scaleFloat);
     }
 
     // Update is called once per frame
