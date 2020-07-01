@@ -20,7 +20,7 @@ public class TurnLights : MonoBehaviour
         {
             if (scaleFloat <= 350f)
             {
-                scaleFloat += Time.deltaTime * 80f;
+                scaleFloat += Time.deltaTime * 170f;
                 this.transform.localScale = new Vector3(scaleFloat, scaleFloat, scaleFloat);
             }
 
@@ -32,7 +32,7 @@ public class TurnLights : MonoBehaviour
         {
             if (scaleFloat >= 0f)
             {
-                scaleFloat -= Time.deltaTime * 80f;
+                scaleFloat -= Time.deltaTime * 170f;
                 this.transform.localScale = new Vector3(scaleFloat, scaleFloat, scaleFloat);
             }
 
