@@ -18,7 +18,7 @@ public class TurnLights : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            if (scaleFloat <= 350f)
+            if (scaleFloat <= 500f)
             {
                 scaleFloat += Time.deltaTime * 170f;
                 this.transform.localScale = new Vector3(scaleFloat, scaleFloat, scaleFloat);
