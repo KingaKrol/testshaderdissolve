@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New_Altar
+  m_Name: New Aztec Statue
   m_Shader: {fileID: -6465566751694194690, guid: 67f21cc7ab163594f800ef7a1dc6125a,
     type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _DOUBLESIDED_ON
@@ -25,11 +25,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_7A973976:
-        m_Texture: {fileID: 2800000, guid: 30da774ec6d59894a95acb99403bd5c3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5eda7315c16a23a449fe8191c5995aa2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_B03A61AC:
-        m_Texture: {fileID: 2800000, guid: f8970f29fb684724b815fe86fd9199dc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0a7bd16733eb50041925a1f42eea5a19, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_D932CB3:
@@ -37,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_FE431676:
-        m_Texture: {fileID: 2800000, guid: e5334a26a39329b4e8610ad3a1369288, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
@@ -125,8 +125,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_5A26B07F: 0
-    - Vector1_70F34D0B: 0.914
+    - Vector1_5A26B07F: -1
+    - Vector1_70F34D0B: 0.779
     - Vector1_793BFAC5: 0.39
     - Vector1_A9534723: 14.2
     - Vector1_F2288008: 0
@@ -253,7 +253,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_390C4E66: {r: 1, g: 1, b: 1, a: 0}
+    - Color_390C4E66: {r: 1, g: 0.93944633, b: 0.5896226, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
