@@ -36,6 +36,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: faaa2fd57cd76d14fae45df8e9dae2a2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - Texture2D_A78AB4FA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_B03A61AC:
         m_Texture: {fileID: 2800000, guid: beafbdd576a0369468682ed45a38fe2c, type: 3}
         m_Scale: {x: 1, y: 1}
