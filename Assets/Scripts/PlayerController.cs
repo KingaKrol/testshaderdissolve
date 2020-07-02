@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
     private Vector3 velocity;
+    private Vector3 moveInput;
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
@@ -30,10 +31,11 @@ public class PlayerController : MonoBehaviour
         }
 
         // Movement
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        moveInput.x = Input.GetAxis("Horizontal");
+        moveInput.z = Input.GetAxis("Vertical");
+        moveInput.Normalize();
 
-        Vector3 move = transform.right * x + transform.forward * z;
+        Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.z;
         controller.Move(move * speed * Time.deltaTime);
 
         // Jump & Gravity

@@ -5,7 +5,7 @@ using UnityEngine;
 public class TurnLights : MonoBehaviour
 {
     public float scaleFloat;
-    public GameObject Light;
+    public GameObject[] lights;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,19 +42,29 @@ public class TurnLights : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Light lisrc = other.gameObject.GetComponent<Light>(); 
-       if (other.tag == "Licht") {
-            lisrc.enabled = false;
+        //Light lisrc = other.gameObject.GetComponent<Light>(); 
+       if (other.tag == "Licht")
+       {
+            //lisrc.enabled = false;
+            for (int i = 0; i < lights.Length; i++)
+            {
+                lights[i].SetActive(false);
+            }
+
            Debug.Log("Licht soll ausgehen");
        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        Light lisrc = other.gameObject.GetComponent<Light>();
+        //Light lisrc = other.gameObject.GetComponent<Light>();
         if (other.tag == "Licht")
         {
-            lisrc.enabled = true;
+            //lisrc.enabled = true;
+            for (int i = 0; i < lights.Length; i++)
+            {
+                lights[i].SetActive(true);
+            }
             Debug.Log("Licht soll angehen");
         }
     }
