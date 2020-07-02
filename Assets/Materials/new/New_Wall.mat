@@ -155,6 +155,7 @@ Material:
     - Vector1_B3BF5073: 0
     - Vector1_CFB2C164: 1
     - Vector1_F2288008: 0
+    - Vector1_F3D696C1: 0
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
@@ -282,6 +283,8 @@ Material:
     - Color_390C4E66: {r: 1, g: 1, b: 1, a: 0}
     - Color_3E8CFB76: {r: 0.754717, g: 0.6617833, b: 0.38803846, a: 0}
     - Color_8543AA62: {r: 0, g: 1, b: 0.9703217, a: 0}
+    - Color_989D635E: {r: 1, g: 1, b: 1, a: 0}
+    - Color_A43B33E7: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
