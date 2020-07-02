@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3145839135727415760}
   - component: {fileID: 6265424872617462758}
   - component: {fileID: 418777395714668319}
+  - component: {fileID: 5368369718289422602}
   m_Layer: 0
-  m_Name: Altar_9_uv_map_low
+  m_Name: altar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &5368369718289422602
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2158101486332740547}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7445871, y: 3.0285072, z: 1.0249416}
+  m_Center: {x: 0, y: 0, z: -0.0007252695}

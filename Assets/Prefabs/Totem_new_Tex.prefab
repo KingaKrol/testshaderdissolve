@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2791224836252551221}
+  - component: {fileID: 8178501522901369434}
   m_Layer: 0
   m_Name: Totem_new_Tex
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8178501522901369434
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2722563626009187359}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 120, y: 240, z: 120}
+  m_Center: {x: 0, y: 120, z: 0}
 --- !u!1 &5354276770530625784
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,11 +162,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2791224836252551221}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 4a9869939bacabb49a436a6005eaed6c,
-        type: 3}
-      propertyPath: m_Name
-      value: Bowl
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4a9869939bacabb49a436a6005eaed6c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -228,6 +237,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ed274028cfcbf6c4194e0247c05fe0ac, type: 2}
+    - target: {fileID: -927199367670048503, guid: 4a9869939bacabb49a436a6005eaed6c,
+        type: 3}
+      propertyPath: m_Name
+      value: Bowl
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9869939bacabb49a436a6005eaed6c, type: 3}
 --- !u!4 &8363448190362599437 stripped

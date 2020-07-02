@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 8076154276276610983}
   - component: {fileID: 2533497910330645342}
   - component: {fileID: 5787070181493326791}
+  - component: {fileID: 8463344067743914471}
   m_Layer: 0
   m_Name: candle2
   m_TagString: Untagged
@@ -301,3 +302,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxRadius: 0
+--- !u!65 &8463344067743914471
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4257059303114010498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.009719069, y: 0.009299233, z: 0.01754473}
+  m_Center: {x: 0.00005318437, y: 0.00016575959, z: 0.008707401}
