@@ -258,7 +258,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_390C4E66: {r: 0.5754717, g: 0.5329283, b: 0.36645603, a: 0}
+    - Color_390C4E66: {r: 0.3962264, g: 0.3631037, b: 0.23362406, a: 0}
     - Color_989D635E: {r: 1, g: 1, b: 1, a: 0}
     - Color_A43B33E7: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
