@@ -17,8 +17,12 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundMask;
     private bool isGrounded;
 
-
-
+    void Start()
+    {
+        //Hide Cursor
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
 
     void Update()
     {
@@ -46,5 +50,11 @@ public class PlayerController : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+
+        // Exit Game
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }

@@ -7,7 +7,6 @@ public class DissolveInput : MonoBehaviour
     public float maxRadius = 0;
     Material[] materials;
     
-    // Start is called before the first frame update
     void Start()
     {
         //Renderer rend = GetComponent<Renderer>();
@@ -23,7 +22,6 @@ public class DissolveInput : MonoBehaviour
         //rend.material.SetFloat("Vector1_A9534723", maxRadius);
     }
 
-    // Update is called once per frame
     void Update()
     {
         materials = GetComponent<Renderer>().materials;
