@@ -192,14 +192,14 @@ Material:
     - _EnableSpecularOcclusion: 0
     - _EnergyConservingSpecularColor: 1
     - _HdrpVersion: 2
-    - _HeightAmplitude: 0.0038999997
-    - _HeightCenter: -0
-    - _HeightMapParametrization: 0
-    - _HeightMax: 0.39
+    - _HeightAmplitude: 0.0989
+    - _HeightCenter: 0.5
+    - _HeightMapParametrization: 1
+    - _HeightMax: 0.09
     - _HeightMin: 0
     - _HeightOffset: 0
-    - _HeightPoMAmplitude: 0.15
-    - _HeightTessAmplitude: 2
+    - _HeightPoMAmplitude: 1.28
+    - _HeightTessAmplitude: 9.89
     - _HeightTessCenter: 0.5
     - _InvTilingScale: 1
     - _Ior: 1
