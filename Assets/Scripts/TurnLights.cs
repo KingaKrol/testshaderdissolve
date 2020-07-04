@@ -38,7 +38,8 @@ public class TurnLights : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
        Light lisrc = other.gameObject.GetComponent<Light>();
-       ParticleSystem particles = other.gameObject.GetComponent<ParticleSystem>(); 
+       ParticleSystem particles = other.gameObject.GetComponent<ParticleSystem>();
+       MeshCollider col = other.gameObject.GetComponent<MeshCollider>();
 
        if (other.tag == "Licht")
        {
@@ -47,12 +48,29 @@ public class TurnLights : MonoBehaviour
 
            Debug.Log("Licht soll ausgehen");
        }
+
+       if (other.tag == "Destroyed")
+       {
+            if (col.enabled == false)
+            {
+                col.enabled = true;
+            }
+       }
+
+       if (other.tag == "Calendar")
+        {
+            if (col.enabled == true)
+            {
+                col.enabled = false;
+            }
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
         Light lisrc = other.gameObject.GetComponent<Light>();
         ParticleSystem particles = other.gameObject.GetComponent<ParticleSystem>();
+        MeshCollider col = other.gameObject.GetComponent<MeshCollider>();
 
         if (other.tag == "Licht")
         {
@@ -60,6 +78,22 @@ public class TurnLights : MonoBehaviour
             particles.Play();
 
             Debug.Log("Licht soll angehen");
+        }
+
+        if (other.tag == "Destroyed")
+        {
+            if (col.enabled == true)
+            {
+                col.enabled = false;
+            }
+        }
+
+        if (other.tag == "Calendar")
+        {
+            if (col.enabled == false)
+            {
+                col.enabled = true;
+            }
         }
     }
 }

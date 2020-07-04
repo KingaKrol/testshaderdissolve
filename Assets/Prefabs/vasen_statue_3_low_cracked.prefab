@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 461681576381616731}
   - component: {fileID: 6148734665635819170}
   - component: {fileID: 7007716989518911890}
+  - component: {fileID: 549265866579640158}
+  - component: {fileID: 3467638967287035944}
   m_Layer: 0
   m_Name: vasen_statue_3_low_cracked
-  m_TagString: Untagged
+  m_TagString: Destroyed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -93,3 +95,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxRadius: 0
+--- !u!64 &549265866579640158
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5577822030004771454}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -4965491319529896066, guid: 16f6d40fc0d1c1642a4e486a5b33e334, type: 3}
+--- !u!65 &3467638967287035944
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5577822030004771454}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.029499318, y: 0.011218845, z: 0.019733034}
+  m_Center: {x: 0.0018771042, y: -0.009183296, z: 0.030803032}

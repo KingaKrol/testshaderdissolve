@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3868705705915510824}
   - component: {fileID: 7389543033585601745}
   - component: {fileID: -5864556828801254959}
+  - component: {fileID: 7529305847482226324}
   m_Layer: 0
   m_Name: dog_statue_cracked_2
-  m_TagString: Untagged
+  m_TagString: Destroyed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,3 +94,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxRadius: 0
+--- !u!64 &7529305847482226324
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9128858225180358669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 6016845170073508926, guid: b64fcfb9d8afa76458fc15ca41b644d6, type: 3}

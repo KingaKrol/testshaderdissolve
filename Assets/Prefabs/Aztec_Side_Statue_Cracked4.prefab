@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 7168979612626803320}
   - component: {fileID: 3477304009669781121}
   - component: {fileID: 8223072138705426059}
+  - component: {fileID: 4424626113890049966}
+  - component: {fileID: 1707981582071548408}
   m_Layer: 0
   m_Name: Aztec_Side_Statue_Cracked4
-  m_TagString: Untagged
+  m_TagString: Destroyed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,3 +95,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxRadius: 0
+--- !u!64 &4424626113890049966
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2917500908818043485}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -4443840771534804398, guid: 145cec10fd3c3b0488054571f2557727, type: 3}
+--- !u!65 &1707981582071548408
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2917500908818043485}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.022790346, y: 0.015414139, z: 0.015889598}
+  m_Center: {x: 0.0051264255, y: -0.0016713853, z: -0.0154152885}

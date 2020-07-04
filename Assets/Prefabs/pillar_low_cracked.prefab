@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 8470308261749764201}
   - component: {fileID: 2787760157376728208}
   - component: {fileID: 5597171749596448277}
+  - component: {fileID: 6189269368663973031}
+  - component: {fileID: 1770886899901758678}
   m_Layer: 0
   m_Name: pillar_low_cracked
-  m_TagString: Untagged
+  m_TagString: Destroyed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
@@ -93,3 +95,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxRadius: 0
+--- !u!64 &6189269368663973031
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4507200646046251084}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3292908629580833363, guid: 2da63c0f88d118044bc7655bad9e2c3f, type: 3}
+--- !u!65 &1770886899901758678
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4507200646046251084}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.008383072, y: 0.008611067, z: 0.044580523}
+  m_Center: {x: 0.00036505796, y: -0.00021770115, z: -0.021181073}
