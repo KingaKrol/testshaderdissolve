@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_FE431676:
-        m_Texture: {fileID: 2800000, guid: 5e3fe37535136d744b1e4fe253e6bdb6, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
@@ -129,7 +129,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_5A26B07F: 1
+    - Vector1_5A26B07F: -1
     - Vector1_70F34D0B: 0.818
     - Vector1_793BFAC5: -0.35
     - Vector1_A9534723: 14.2
