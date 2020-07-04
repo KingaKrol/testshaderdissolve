@@ -50,11 +50,5 @@ public class PlayerController : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
-
-        // Exit Game
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
     }
 }
