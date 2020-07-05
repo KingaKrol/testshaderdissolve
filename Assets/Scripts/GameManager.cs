@@ -25,6 +25,11 @@ public class GameManager : MonoBehaviour
         {
             PauseUnpause();
         }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
     }
 
     public void PauseUnpause()

@@ -57,6 +57,8 @@ public class UIManager : MonoBehaviour
 
     IEnumerator MainMenuCo()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         Time.timeScale = 1f;
         fadeToBlack = true;
         yield return new WaitForSeconds(2f);
