@@ -5,6 +5,7 @@ using UnityEngine;
 public class TurnLights : MonoBehaviour
 {
     public float scaleFloat;
+    public AudioSource[] newAudios;
 
     void Start()
     {
@@ -16,20 +17,35 @@ public class TurnLights : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Mouse0))
         {
+            foreach (AudioSource audioSource in newAudios)
+            {
+                if(audioSource.volume >= 0.01f)
+                {
+                    audioSource.volume = audioSource.volume / 1.04f;
+                }              
+            }
+
             if (scaleFloat <= 500f)
             {
                 scaleFloat += Time.deltaTime * 170f;
-                transform.localScale = new Vector3(scaleFloat, scaleFloat, scaleFloat);
+                transform.localScale = new Vector3(scaleFloat, scaleFloat, scaleFloat);         
             }
 
         }
 
         if (Input.GetKey(KeyCode.Mouse1))
         {
+            foreach (AudioSource audioSource in newAudios)
+            {
+                if (audioSource.volume <= 1.0f)
+                {
+                    audioSource.volume = audioSource.volume * 1.04f;
+                }
+            }
             if (scaleFloat >= 0f)
             {
                 scaleFloat -= Time.deltaTime * 170f;
-                transform.localScale = new Vector3(scaleFloat, scaleFloat, scaleFloat);
+                transform.localScale = new Vector3(scaleFloat, scaleFloat, scaleFloat);               
             }
 
         }

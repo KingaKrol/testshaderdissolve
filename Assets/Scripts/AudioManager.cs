@@ -10,7 +10,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource[] music;
     public AudioSource[] sfx;
 
-    public int levelMusicToPlay;
+    public int levelMusicToPlay, soundEffect;
 
     private void Awake()
     {
