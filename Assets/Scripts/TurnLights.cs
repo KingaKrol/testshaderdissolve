@@ -6,6 +6,7 @@ public class TurnLights : MonoBehaviour
 {
     public float scaleFloat;
     public AudioSource[] newAudios;
+    public AudioSource[] jungleAudios;
 
     void Start()
     {
@@ -25,6 +26,14 @@ public class TurnLights : MonoBehaviour
                 }              
             }
 
+            foreach (AudioSource audioSource in jungleAudios)
+            {
+                if (audioSource.volume <= 1.0f)
+                {
+                    audioSource.volume = audioSource.volume * 1.04f;
+                }
+            }
+
             if (scaleFloat <= 500f)
             {
                 scaleFloat += Time.deltaTime * 170f;
@@ -42,6 +51,15 @@ public class TurnLights : MonoBehaviour
                     audioSource.volume = audioSource.volume * 1.04f;
                 }
             }
+
+            foreach (AudioSource audioSource in jungleAudios)
+            {
+                if (audioSource.volume >= 0.0001f)
+                {
+                    audioSource.volume = audioSource.volume / 1.04f;
+                }
+            }
+
             if (scaleFloat >= 0f)
             {
                 scaleFloat -= Time.deltaTime * 170f;
