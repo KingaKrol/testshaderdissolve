@@ -267,7 +267,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_27E2DD62: {r: 0, g: 0, b: 0, a: 0}
-    - Color_3E8CFB76: {r: 1, g: 1, b: 1, a: 0}
+    - Color_3E8CFB76: {r: 0.7607843, g: 0.81986314, b: 1, a: 0}
     - Color_8543AA62: {r: 0, g: 1, b: 0.9703217, a: 0}
     - Vector2_E03EE5DB: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_FFEA6180: {r: 1, g: 1, b: 0, a: 0}
