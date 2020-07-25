@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
     public Image blackScreen;
     public float fadeSpeed = 1f;
     public bool fadeToBlack, fadeFromBlack;
+    public GameObject controls, title, startButton, exitButton;
 
     private void Start()
     {
@@ -55,6 +56,16 @@ public class MainMenu : MonoBehaviour
     {
         fadeToBlack = true;
         yield return new WaitForSeconds(2f);
+        title.SetActive(false);
+        startButton.SetActive(false);
+        exitButton.SetActive(false);
+        controls.SetActive(true);
+        fadeFromBlack = true;
+        yield return new WaitForSeconds(6f);
+        fadeToBlack = true;
+        yield return new WaitForSeconds(2f);
+        controls.SetActive(false);
+
         SceneManager.LoadScene(firstLevel);
     }
 
